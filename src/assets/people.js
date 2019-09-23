@@ -277,6 +277,7 @@ export const people = [
 			"edited": "2014-12-20T21:17:50.325000Z",
 			"url": "https://swapi.co/api/people/10/"
 		}
-	]
+	],
 }
+
 ]
