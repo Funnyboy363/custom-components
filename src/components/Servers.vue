@@ -1,7 +1,8 @@
 <template>
-    <div class="col-xs-12 col-sm-6">
+    <div>
         <ul class="list-group">
-            <li class="list-group-item" v-for="index in 5" v-bind:key="index.server"> Server #{{ index }} </li>
+             <li class="list-group-item" v-for="index in 5"
+              v-bind:key="index.server"> Server #{{ index }} </li>
         </ul>
     </div>
 </template>
@@ -11,6 +12,6 @@
 
 <style scoped>
     div {
-        border: 1px solid blue;
+        border-right: 2px solid rgb(105, 105, 105);
     }
 </style>

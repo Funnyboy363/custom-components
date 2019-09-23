@@ -1,21 +1,25 @@
 <template>
-    <div class="container">
+    <v-container>
         <app-header></app-header>
         <hr>
-        <div class="row">
-            <servers></servers>
+       
+         <v-row>
+           <v-col cols="6">
+            <servers></servers></v-col>
+             <v-col cols="6">
             <app-server-details></app-server-details>
-        </div>
+             </v-col>
+         </v-row>
         <hr>
         <app-footer></app-footer>
-    </div>
+    </v-container>
 </template>
 
 <script>
-    import Header from './components/Shared/Header.vue';
-    import Footer from './components/Shared/Footer.vue';
-    import Servers from './components/Server/Servers.vue';
-    import ServerDetails from './components/Server/ServerDetails.vue';
+    import Header from './components/Header.vue';
+    import Footer from './components/Footer.vue';
+    import Servers from './components/Servers.vue';
+    import ServerDetails from './components/ServerDetails.vue';
 
     export default {
         components: {
@@ -28,5 +32,7 @@
 </script>
 
 <style>
-
+html, div.row, ul {
+   padding-left: 10px;
+}
 </style>

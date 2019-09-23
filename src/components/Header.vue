@@ -1,16 +1,18 @@
 <template>
-    <div class="row">
-        <div class="col-xs-12">
+    <v-row>
+        <v-col>
             <header>
                 <h1>Server Status</h1>
             </header>
-        </div>
-    </div>
+        </v-col>
+    </v-row>
 </template>
 
 <script>
 </script>
 
 <style>
-
+header {
+    margin-bottom: 10px;
+}
 </style>

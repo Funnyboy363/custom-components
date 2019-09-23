@@ -1,16 +1,18 @@
 <template>
-        <div class="row">
-            <div class="col-xs-12">
+        <v-row>
+            <v-col>
                 <footer>
                     <p>All Servers are managed here</p>
                 </footer>
-            </div>
-        </div>
+            </v-col>
+        </v-row>
 </template>
 
 <script>
 </script>
 
 <style>
-
+footer {
+    margin: 20px 0;
+}
 </style>
