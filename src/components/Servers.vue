@@ -10,7 +10,7 @@
 </template>
 <script>
 import Server from './Server.vue';
-
+import { serverBus } from '../main';
 
   export default {
         data: function() {
