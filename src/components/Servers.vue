@@ -20,7 +20,7 @@ import Server from './Server.vue';
                   { id: 2, status: 'Critical'},
                   { id: 3, status: 'Unknown'},
                   { id: 4, status: 'Hazardous'}
-              ]
+              ],
             };
         },
         components: {
