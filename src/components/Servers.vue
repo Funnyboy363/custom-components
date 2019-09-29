@@ -19,7 +19,7 @@ import Server from './Server.vue';
                   { id: 1, status: 'Normal'},
                   { id: 2, status: 'Critical'},
                   { id: 3, status: 'Unknown'},
-                  { id: 4, status: 'Hazardous'},
+                  { id: 4, status: 'Hazardous'}
               ]
             };
         },
